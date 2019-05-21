@@ -1,0 +1,8 @@
+<nav class="navbar navbar-light" style="background-color: #f0f0f0;">
+  <a class="navbar-brand" href="#">Wikinimous</a>
+  <button class="btn btn-sm btn-primary">New article</button>
+
+  <% @articles.each do |article|%>
+    <%= article.title %>
+  <% end %>
+</nav>
